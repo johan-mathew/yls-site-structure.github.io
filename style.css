@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.header {
+  background: url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+  background-size: cover;
+  background-color: rgba(37, 28, 167, 0.849);
+  background-blend-mode: multiply;
+  height: 100vh;
+  padding: 4.5rem 19rem 0 19rem; }
+  .header-navbar-structure {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent; }
+    .header-navbar-structure-list:first-child {
+      float: left; }
+    .header-navbar-structure-list:not(first-child) {
+      float: right; }
+    .header-navbar-structure-list-p {
+      display: block;
+      color: white;
+      font-size: 1.6rem;
+      text-align: center;
+      padding: 1.4rem 1.4rem;
+      margin-right: 3rem;
+      cursor: default; }
+      .header-navbar-structure-list-p i {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+        font-weight: 100; }
+    .header-navbar-structure-list-dropdown-triangle-1 {
+      position: absolute;
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      background-color: white;
+      border-radius: 0.5rem;
+      transform: rotateZ(45deg);
+      top: 9.2rem;
+      left: 91.7rem; }
+    .header-navbar-structure-list-dropdown-1 {
+      background-color: white;
+      width: 20rem;
+      left: 100rem;
+      top: 10rem;
+      border-radius: 0.7rem;
+      position: absolute; }
+      .header-navbar-structure-list-dropdown-1-a {
+        display: block;
+        color: black;
+        text-align: left;
+        font-size: 1.6rem;
+        margin: 1rem 0 0 0;
+        padding: 0 1rem 1rem 1rem;
+        text-decoration: none;
+        border-bottom: solid 1px rgba(206, 206, 206, 0.582);
+        cursor: default; }
+        .header-navbar-structure-list-dropdown-1-a:last-child {
+          border: none;
+          padding: 0 1rem 1rem 1rem; }
+    .header-navbar-structure-list-dropdown-triangle-2 {
+      position: absolute;
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      background-color: white;
+      border-radius: 0.5rem;
+      transform: rotateZ(45deg);
+      top: 9.2rem;
+      left: 108.7rem; }
+    .header-navbar-structure-list-dropdown-2 {
+      background-color: white;
+      border-radius: 0.7rem;
+      left: 82rem;
+      top: 10rem;
+      width: 20rem;
+      position: absolute; }
+      .header-navbar-structure-list-dropdown-2-a {
+        display: block;
+        color: black;
+        text-align: left;
+        font-size: 1.6rem;
+        margin: 1rem 0 0 0;
+        padding: 0 1rem 1rem 1rem;
+        text-decoration: none;
+        border-bottom: solid 1px rgba(206, 206, 206, 0.582);
+        cursor: default; }
+        .header-navbar-structure-list-dropdown-2-a:last-child {
+          border: none;
+          padding: 0rem 1rem 1rem 1rem; }
+    .header-navbar-structure-list-a {
+      display: block;
+      color: white;
+      background-color: #262faa;
+      text-align: center;
+      font-size: 1.6rem;
+      padding: 1.4rem 1.4rem;
+      text-decoration: none;
+      cursor: default; }
+  .header-textbox {
+    margin-top: 12rem; }
+    .header-textbox-heading {
+      color: white; }
+      .header-textbox-heading-secondary {
+        font-size: 3rem;
+        font-weight: 100;
+        margin-bottom: 3.5rem;
+        display: inline-block; }
+      .header-textbox-heading-primary {
+        font-size: 5.5rem;
+        font-weight: 600; }
+  .header-btn {
+    margin-top: 6rem; }
+    .header-btn-structure {
+      display: block;
+      color: white;
+      width: 30rem;
+      background-color: #d65826;
+      padding: 2rem 3rem;
+      font-size: 2.5rem;
+      text-align: left;
+      font-weight: bold;
+      text-decoration: none; }
+      .header-btn-structure-rightarrow {
+        margin-left: 10rem; }
+
+.main-stories {
+  padding: 0 19rem; }
+  .main-stories-btn {
+    z-index: 20;
+    position: relative;
+    top: -8rem;
+    width: 22rem;
+    left: 93rem; }
+    .main-stories-btn-structure {
+      display: block;
+      color: black;
+      background-color: white;
+      padding: 1rem 0.2rem 1rem 1rem;
+      font-size: 2rem;
+      text-align: left;
+      font-weight: 200;
+      text-decoration: none; }
+      .main-stories-btn-structure-text {
+        font-weight: 700; }
+      .main-stories-btn-structure-rightarrow {
+        margin-left: 1rem;
+        color: blue;
+        font-weight: bold; }
+  .main-stories-row {
+    width: 100%;
+    margin-top: -16rem; }
+    .main-stories-row-col-1-of-3 {
+      display: inline-block;
+      width: 31.2%;
+      height: 40rem;
+      margin-right: 2.8%;
+      z-index: 10; }
+      .main-stories-row-col-1-of-3:last-child {
+        margin-right: 0; }
+      .main-stories-row-col-1-of-3-left {
+        background: url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+        background-size: cover;
+        height: 100%;
+        padding: 18rem 3rem 2rem 3rem;
+        background-color: rgba(41, 40, 43, 0.76);
+        background-blend-mode: multiply; }
+        .main-stories-row-col-1-of-3-left-h2 {
+          color: #49e0d1;
+          margin-bottom: 2rem;
+          font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-left-h2 i {
+            margin-right: 1.5rem; }
+        .main-stories-row-col-1-of-3-left-h1 {
+          color: white;
+          margin-bottom: 2rem;
+          font-size: 3rem; }
+        .main-stories-row-col-1-of-3-left-p {
+          color: white;
+          font-size: 1.5rem; }
+          .main-stories-row-col-1-of-3-left-p-date {
+            font-style: italic;
+            font-weight: 600; }
+      .main-stories-row-col-1-of-3-middle {
+        background: url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+        background-size: cover;
+        height: 100%;
+        padding: 18rem 3rem 2rem 3rem;
+        background-color: rgba(41, 40, 43, 0.76);
+        background-blend-mode: multiply; }
+        .main-stories-row-col-1-of-3-middle-h2 {
+          color: #49e0d1;
+          margin-bottom: 2rem;
+          font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-middle-h2 i {
+            margin-right: 1.5rem; }
+        .main-stories-row-col-1-of-3-middle-h1 {
+          color: white;
+          margin-bottom: 2rem;
+          font-size: 3rem; }
+        .main-stories-row-col-1-of-3-middle-p {
+          color: white;
+          font-size: 1.5rem; }
+          .main-stories-row-col-1-of-3-middle-p-date {
+            font-style: italic;
+            font-weight: 600; }
+      .main-stories-row-col-1-of-3-right {
+        background: url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+        background-size: cover;
+        height: 100%;
+        padding: 18rem 3rem 2rem 3rem;
+        background-color: rgba(41, 40, 43, 0.76);
+        background-blend-mode: multiply; }
+        .main-stories-row-col-1-of-3-right-h2 {
+          color: #49e0d1;
+          margin-bottom: 2rem;
+          font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-right-h2 i {
+            margin-right: 1.5rem; }
+        .main-stories-row-col-1-of-3-right-h1 {
+          color: white;
+          margin-bottom: 2rem;
+          font-size: 3rem; }
+        .main-stories-row-col-1-of-3-right-p {
+          color: white;
+          font-size: 1.5rem; }
+          .main-stories-row-col-1-of-3-right-p-date {
+            font-style: italic;
+            font-weight: 600; }
+
+.main-our-mission {
+  margin: 9.5rem 33rem;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 2rem 2rem; }
+  .main-our-mission-heading {
+    font-size: 4.5rem;
+    text-align: center; }
+  .main-our-mission-underline {
+    background-color: white;
+    width: 13rem;
+    height: 1rem;
+    margin: 1.5rem auto; }
+  .main-our-mission .fa-quote-left {
+    font-size: 4.5rem;
+    position: relative;
+    top: 0rem;
+    left: 3rem; }
+  .main-our-mission .fa-quote-right {
+    font-size: 4.5rem;
+    position: relative;
+    top: 0rem;
+    left: 75rem; }
+  .main-our-mission-content {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 5rem;
+    line-height: 4.5rem; }
+  .main-our-mission-btn {
+    margin-top: 2rem; }
+    .main-our-mission-btn-structure {
+      display: block;
+      color: cornflowerblue;
+      width: 30rem;
+      background-color: white;
+      padding: 1.5rem 1.2rem;
+      font-size: 2.2rem;
+      text-align: center;
+      margin: 0 auto;
+      text-decoration: none; }
+      .main-our-mission-btn-structure-inner-text {
+        font-weight: bold; }

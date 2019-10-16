@@ -1,0 +1,418 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+.header
+{
+    background:url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+    background-size: cover;
+    background-color: rgba(37, 28, 167, 0.849); // Tint color
+    background-blend-mode: multiply;    
+    height: 100vh;
+    padding: 4.5rem 19rem 0 19rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+            &-list
+            {
+                &:first-child
+                {
+                    float: left;
+                }
+                &:not(first-child)
+                {
+                    float:right; 
+                }       
+                &-p
+                {
+                    display: block;
+                    color: white;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding: 1.4rem 1.4rem;
+                    margin-right: 3rem;
+                    cursor: default;
+                    i  
+                    {
+                        margin-left:1rem;
+                        font-size: 1.4rem;
+                        font-weight: 100;
+                    }
+                }
+                &-dropdown-triangle-1
+                {
+                    position: absolute;
+                    display: block;
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    transform: rotateZ(45deg);
+                    top:9.2rem;
+                    left:91.7rem;
+                }
+                &-dropdown-1
+                {
+                    background-color: white;
+                    width:20rem;
+                    left:100rem;
+                    top:10rem;
+                    border-radius:0.7rem;
+                    position: absolute;
+                    &-a
+                    {
+                        display: block;
+                        color: black;
+                        text-align: left;
+                        font-size: 1.6rem;
+                        margin:1rem 0 0 0;
+                        padding: 0 1rem 1rem 1rem;
+                        text-decoration: none;
+                        border-bottom: solid 1px rgba(206, 206, 206, 0.582);
+                        cursor: default;
+                        &:last-child
+                        {
+                            border: none;
+                            padding: 0 1rem 1rem 1rem;
+
+                        }
+                    }
+                    
+
+                }
+                &-dropdown-triangle-2
+                {
+                    position: absolute;
+                    display: block;
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    transform: rotateZ(45deg);
+                    top:9.2rem;
+                    left:108.7rem;
+                }
+                &-dropdown-2
+                {
+                    background-color: white;
+                    border-radius:0.7rem;
+                    left:82rem;
+                    top:10rem;
+                    width:20rem;
+                    position: absolute;
+                    &-a
+                    {
+                        display: block;
+                        color: black;
+                        text-align: left;
+                        font-size: 1.6rem;
+                        margin:1rem 0 0 0;
+                        padding: 0 1rem 1rem 1rem;
+                        text-decoration: none;
+                        border-bottom:solid 1px rgba(206, 206, 206, 0.582);
+                        cursor: default;
+                        &:last-child
+                        {
+                            border: none;
+                            padding: 0rem 1rem 1rem 1rem;
+                        }
+                    }
+                    
+
+                }
+                &-a
+                {
+                    display: block;
+                    color: white;
+                    background-color: rgb(38, 47, 170);
+                    text-align: center;
+                    font-size: 1.6rem;
+                    padding: 1.4rem 1.4rem;
+                    text-decoration: none;
+                    
+                    cursor: default;
+                } 
+            }
+        }
+    }
+
+    &-textbox
+    {
+        margin-top: 12rem;
+        &-heading
+        {
+            color: white;
+            &-secondary
+            {
+                font-size: 3rem;
+                font-weight: 100;
+                margin-bottom: 3.5rem;
+                display: inline-block;
+            }
+            &-primary
+            {
+                font-size: 5.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &-btn
+    {
+        margin-top: 6rem;
+        &-structure
+        {
+            display: block;
+            color: white;
+            width: 30rem;
+            background-color: rgb(214, 88, 38);
+            padding: 2rem 3rem;
+            font-size: 2.5rem;
+            text-align: left;
+            font-weight: bold;
+            text-decoration: none;
+            &-rightarrow
+            {
+                margin-left: 10rem;
+            }
+        }
+    }
+}
+
+.main
+{
+    &-stories
+    {
+        padding:0 19rem;
+        &-btn
+        {
+            z-index: 20;
+            position: relative;
+            top:-8rem;
+            width:22rem;
+            left:93rem;
+            &-structure
+            {
+                display: block;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                padding: 1rem 0.2rem 1rem 1rem;
+                font-size: 2rem;
+                text-align: left;
+                font-weight: 200;
+                text-decoration: none;
+                &-text
+                {
+                    font-weight: 700;
+                }
+                &-rightarrow
+                {
+                    margin-left: 1rem;
+                    color: blue;
+                    font-weight: bold;
+                }
+            }
+        }
+        &-row
+        {
+            width: 100%;
+            margin-top:-16rem;
+            &-col-1-of-3
+            {
+                display: inline-block;
+                width:31.2%;
+                height: 40rem;
+                margin-right:2.8%;
+                z-index: 10;
+                &:last-child
+                {
+                    margin-right:0;
+                }
+                &-left
+                {
+                    background:url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+                    background-size: cover;
+                    height:100%;
+                    padding:18rem 3rem 2rem 3rem;                   
+                    background-color: rgba(41, 40, 43, 0.76); // Tint color
+                    background-blend-mode: multiply;
+                    &-h2
+                    {
+                        color: rgb(73, 224, 209);
+                        margin-bottom: 2rem;
+                        font-size: 2.5rem;
+                        i
+                        {
+                            margin-right: 1.5rem;
+                        }
+                    }
+
+                    &-h1
+                    {
+                        color: rgb(255, 255, 255);
+                        margin-bottom: 2rem;
+                        font-size: 3rem;
+
+                    }
+                    &-p
+                    {
+                        color: white;
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                            font-style: italic;
+                            font-weight: 600;
+                        }
+                    }       
+                }
+                &-middle
+                {
+                    background:url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+                    background-size: cover;
+                    height:100%;
+                    padding:18rem 3rem 2rem 3rem; 
+                    background-color: rgba(41, 40, 43, 0.76); // Tint color
+                    background-blend-mode: multiply;
+                    &-h2
+                    {
+                        color: rgb(73, 224, 209);
+                        margin-bottom: 2rem;
+                        font-size: 2.5rem;
+                        i
+                        {
+                            margin-right: 1.5rem;
+                        }
+                    }
+                    &-h1
+                    {
+                        color: rgb(255, 255, 255);
+                        margin-bottom: 2rem;
+                        font-size: 3rem;
+
+                    }
+                    &-p
+                    {
+                        color: white;
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                            font-style: italic;
+                            font-weight: 600;
+                        }
+                    }       
+                }
+                &-right
+                {
+                    background:url("https://s1.1zoom.me/b5354/563/Croatia_Parks_Lake_Waterfalls_Plitvice_Lakes_527460_1920x1080.jpg");
+                    background-size: cover;
+                    height:100%;
+                    padding:18rem 3rem 2rem 3rem; 
+                    background-color: rgba(41, 40, 43, 0.76); // Tint color
+                    background-blend-mode: multiply;
+                    &-h2
+                    {
+                        color: rgb(73, 224, 209);
+                        margin-bottom: 2rem;
+                        font-size: 2.5rem;
+                        i
+                        {
+                            margin-right: 1.5rem;
+                        }
+                    }
+                    &-h1
+                    {
+                        color: rgb(255, 255, 255);
+                        margin-bottom: 2rem;
+                        font-size: 3rem;
+
+                    }
+                    &-p
+                    {
+                        color: white;
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                            font-style: italic;
+                            font-weight: 600;
+                        }
+                    }       
+                }
+            }
+        }
+    }
+    &-our-mission
+    {
+        margin:9.5rem 33rem;
+        background-color: cornflowerblue;
+        color: white;
+        padding: 2rem 2rem;
+        &-heading
+        {
+            font-size: 4.5rem;
+            text-align: center;
+        }
+        &-underline
+        {
+            background-color: white;
+            width:13rem;
+            height: 1rem;
+            margin:1.5rem auto;
+        }
+        .fa-quote-left
+        {
+            font-size: 4.5rem;
+            position: relative;
+            top: 0rem;
+            left:3rem;
+        }
+        .fa-quote-right
+        {
+            font-size: 4.5rem;
+            position: relative;
+            top: 0rem;
+            left:75rem;
+        }
+        &-content
+        {
+            text-align: center;
+            font-size: 3rem;
+            padding:0 5rem;
+            line-height: 4.5rem;
+            
+        }
+        &-btn
+        {
+            margin-top: 2rem;
+
+            &-structure
+            {
+                display: block;
+                color: cornflowerblue;
+                width: 30rem;
+                background-color: rgb(255, 255, 255);
+                padding: 1.5rem 1.2rem;
+                font-size: 2.2rem;
+                text-align: center;
+                margin:0 auto;
+                text-decoration: none;
+                &-inner-text
+                {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}
